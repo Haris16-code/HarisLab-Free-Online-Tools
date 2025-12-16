@@ -1,16 +1,16 @@
 # Contributing to HarisLab Free Online Tools 🎉
 
-First off, thank you for considering contributing to HarisLab! It's people like you that make HarisLab such a great tool for everyone.
+First off, thank you for considering contributing to HarisLab! It's people like you that make HarisLab such a great resource for everyone.
 
 ## 🌟 Ways to Contribute
 
-- 🐛 Report bugs
-- 💡 Suggest new features or tools
-- 📝 Improve documentation
-- 🔧 Submit bug fixes
-- ✨ Add new tools
-- 🎨 Improve UI/UX
-- 🌍 Add translations
+- 📝 Improve README documentation
+- 🔗 Update or fix broken links
+- ✨ Add new tool descriptions to README
+- 📊 Suggest better organization of tools
+- 🎨 Improve formatting and readability
+- 🐛 Report issues with documentation
+- 💡 Suggest new tools to be added to the website
 
 ## 🚀 Getting Started
 
@@ -28,37 +28,42 @@ cd HarisLab-Free-Online-Tools
 ### 3. Create a Branch
 
 ```bash
-git checkout -b feature/your-feature-name
-# or
-git checkout -b fix/your-bug-fix
+git checkout -b docs/your-description
+# Examples:
+# git checkout -b docs/add-new-tool
+# git checkout -b docs/fix-broken-links
+# git checkout -b docs/improve-formatting
 ```
 
-### 4. Make Your Changes
+### 4. Make Your Changes to README
 
-- Write clean, readable code
-- Follow the existing code style
-- Test your changes thoroughly
-- Ensure all tools work in the browser
+This repository is primarily for documentation. When making changes:
+
+- **Update tool listings**: Add new tools to the appropriate category table
+- **Fix broken links**: Ensure all links point to the correct URLs on harislab.tech
+- **Improve descriptions**: Make tool descriptions clear and concise
+- **Maintain formatting**: Keep the existing markdown structure and emoji usage
+- **Check links**: Verify all links work before submitting
+- **Preserve structure**: Follow the existing categories and table format
 
 ### 5. Commit Your Changes
 
 ```bash
-git add .
-git commit -m "Add: Brief description of your changes"
+git add README.md
+git commit -m "Docs: Brief description of your changes"
 ```
 
 **Commit Message Guidelines:**
-- `Add:` for new features
-- `Fix:` for bug fixes
-- `Update:` for updates to existing features
-- `Docs:` for documentation changes
-- `Style:` for formatting changes
-- `Refactor:` for code refactoring
+- `Docs: Add new tool X to category Y`
+- `Docs: Fix broken link to tool X`
+- `Docs: Update tool descriptions`
+- `Docs: Improve formatting in section X`
+- `Docs: Add new category for Z tools`
 
 ### 6. Push to Your Fork
 
 ```bash
-git push origin feature/your-feature-name
+git push origin docs/your-description
 ```
 
 ### 7. Submit a Pull Request
@@ -67,69 +72,63 @@ Go to the original repository and click "New Pull Request". Fill out the PR temp
 
 ## 📋 Pull Request Guidelines
 
-- **Title**: Clear and descriptive
-- **Description**: Explain what changes you made and why
-- **Screenshots**: Include screenshots for UI changes
-- **Testing**: Describe how you tested your changes
+- **Title**: Clear and descriptive (e.g., "Add QR Code Scanner tool to Developer Tools")
+- **Description**: Explain what documentation you modified and why
+- **Screenshots**: Include before/after if you changed formatting
+- **Link Check**: Confirm all new/modified links work
 - **Issue**: Link related issues using `Fixes #123` or `Closes #123`
 
-## 🐛 Reporting Bugs
+## 🔗 Adding a New Tool to README
 
-Before creating a bug report, please check existing issues to avoid duplicates.
+When adding a new tool to the documentation:
 
-**Include in your bug report:**
+1. **Identify the correct category**: Productivity, Developer Tools, Media Tools, Network Tools, or Games
+2. **Use the existing table format**:
+   ```markdown
+   | **Tool Name** | Brief description | [Try Now](https://harislab.tech/path/to/tool) |
+   ```
+3. **Verify the link**: Make sure the tool actually exists on harislab.tech
+4. **Keep descriptions concise**: One line describing what the tool does
+5. **Maintain alphabetical order** (if applicable within the category)
+
+## 📝 Documentation Style Guide
+
+- Use emojis consistently with the existing style
+- Keep descriptions under 10 words when possible
+- Use proper markdown table formatting
+- Maintain the existing section structure
+- Use proper heading hierarchy (##, ###)
+- Ensure links use the format: `[Text](URL)`
+
+## 🐛 Reporting Issues
+
+Before creating an issue, please check existing issues to avoid duplicates.
+
+**Include in your report:**
 - Clear and descriptive title
-- Steps to reproduce the issue
-- Expected behavior vs actual behavior
-- Screenshots or GIFs if applicable
-- Browser and OS information
-- Any error messages in the console
+- Section of README affected
+- Current content vs. suggested content
+- Screenshots if applicable
+- Broken links (if reporting link issues)
 
-## 💡 Suggesting Features
+## 💡 Suggesting New Tools
 
-We love new ideas! When suggesting a feature:
+We love hearing about new tool ideas! When suggesting a new tool:
 
 - Use a clear and descriptive title
-- Provide a detailed description of the feature
-- Explain why this feature would be useful
-- Include mockups or examples if possible
+- Explain what the tool would do
+- Describe why it would be useful to users
+- Suggest which category it belongs in
+- Provide examples of similar tools if available
 
-## 🎨 Code Style Guidelines
+## ✅ Before Submitting Your PR
 
-- Use consistent indentation (2 spaces)
-- Write meaningful variable and function names
-- Comment complex logic
-- Keep functions small and focused
-- Follow existing patterns in the codebase
-
-## ✅ Testing
-
-Before submitting your PR:
-
-- [ ] Test your changes in multiple browsers (Chrome, Firefox, Safari, Edge)
-- [ ] Test on mobile devices or responsive view
-- [ ] Ensure no console errors
-- [ ] Verify all existing tools still work
-- [ ] Check for any broken links
-
-## 🔒 Privacy & Security
-
-HarisLab is privacy-first. All tools should:
-- Run locally in the browser
-- Not send data to external servers (unless absolutely necessary and clearly disclosed)
-- Not store user data
-- Handle sensitive information securely
-
-## 📝 Adding a New Tool
-
-When adding a new tool:
-
-1. Create a new directory under appropriate category
-2. Include standalone HTML/CSS/JS files
-3. Ensure mobile responsiveness
-4. Add tool to the main navigation/index
-5. Update documentation if needed
-6. Test thoroughly across browsers
+- [ ] All links have been tested and work correctly
+- [ ] Markdown formatting is correct and renders properly
+- [ ] No typos or grammatical errors
+- [ ] Changes follow the existing style and structure
+- [ ] Tool descriptions are clear and concise
+- [ ] Categories are properly maintained
 
 ## 🤝 Code of Conduct
 
@@ -141,7 +140,7 @@ Feel free to open an issue with the `question` label or reach out to the maintai
 
 ## 🙏 Thank You!
 
-Your contributions make HarisLab better for everyone. We appreciate your time and effort! ❤️
+Your contributions help make HarisLab's documentation better for everyone! ❤️
 
 ---
 
