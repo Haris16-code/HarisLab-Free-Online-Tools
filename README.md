@@ -29,11 +29,9 @@
 
 ---
 
-## 🎬 Demo
+## Homepage Preview
 
-![HarisLab Demo](https://via.placeholder.com/800x400/4A90E2/FFFFFF?text=Add+Your+Demo+GIF+Here)
-
-> **Note:** Replace the placeholder above with actual screenshots or GIFs of your tools in action!
+![HarisLab HomePage Preview](main1-new.PNG)
 
 ---
 
