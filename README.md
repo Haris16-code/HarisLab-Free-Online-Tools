@@ -104,13 +104,32 @@
 ### For Users
 Simply visit [harislab.tech](https://harislab.tech) and start using any tool - no sign-up required!
 
-### For Developers
-```bash
-# Clone the repository
-git clone https://github.com/Haris16-code/HarisLab-Free-Online-Tools.git
+---
 
-# Navigate to the project
-cd HarisLab-Free-Online-Tools
+## 🤝 Contributing
 
-# Open in your browser
-# (Add specific instructions based on your tech stack)
+Contributions are welcome — especially non-code contributions that improve the experience for everyone:
+
+- Suggest new tools (linters, formatters, CI, testing, UX or new utilities)
+- Improve the README and documentation (setup, usage, examples, FAQs)
+- Report and help triage issues
+- Polish templates (issues/PR), workflows, and community docs
+
+See the full guide in [CONTRIBUTING.md](CONTRIBUTING.md).
+
+---
+
+## 🐛 Bugs & Broken Links
+
+- For general bugs or broken links (e.g., tool links in this README), please open an issue using the “Bug report” template and include the exact URL/section.
+- For security concerns, do not open a public issue. Follow the process in [SECURITY.md](SECURITY.md).
+
+---
+
+## 📄 Project Meta
+
+- Code of Conduct: [CODE_OF_CONDUCT.md](CODE_OF_CONDUCT.md)
+- Security Policy: [SECURITY.md](SECURITY.md)
+- Contributing Guide: [CONTRIBUTING.md](CONTRIBUTING.md)
+- Changelog: [CHANGELOG.md](CHANGELOG.md)
+- Funding: [.github/FUNDING.yml](.github/FUNDING.yml)
