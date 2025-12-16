@@ -61,7 +61,7 @@
 
 | Tool | Description | Link |
 |------|-------------|------|
-| **API Tester** | Test REST APIs directly from browser | [Try Now](https://harislab.tech/Tools/Developer-Tools/API-Tester/) |
+| **API Tester** | Test REST And GraphQL APIs directly from browser | [Try Now](https://harislab.tech/Tools/Developer-Tools/API-Tester/) |
 | **JSON Formatter** | Format and validate JSON data | [Try Now](https://harislab.tech/Tools/Developer-Tools/JSON-Formatter/) |
 | **XML/YAML Formatter** | Format XML and YAML files | [Try Now](https://harislab.tech/Tools/Developer-Tools/XML-YAML-Formatter/) |
 | **Code Minifier** | Minify CSS, JS, and HTML code | [Try Now](https://harislab.tech/Tools/Developer-Tools/Code-Minifier/) |
